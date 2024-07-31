@@ -14,9 +14,3 @@ class JobCreate(JobBase):
 class JobUpdate(JobBase):
     pass
 
-class Job(JobBase):
-    id: int
-    posted_at: datetime
-    updated_at: datetime
-
- 

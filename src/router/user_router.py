@@ -11,8 +11,8 @@ from datetime import datetime
 from src.utils.token import decode_token_user_id,decode_token_user_email,decode_token_user_name,logging_token
 
 #from src.schemas.student import RollStu, BranchStu
-User1 = APIRouter()
-Otp_router = APIRouter()
+User1 = APIRouter(tags=["User"])
+Otp_router = APIRouter(tags=["Otp"])
 db = SessionLocal()
 
 
